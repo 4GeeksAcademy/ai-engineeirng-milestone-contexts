@@ -1,0 +1,9 @@
+# Brasaland.
+
+Brasaland is a grilled food restaurant chain founded in 2008 in Bogotá, Colombia. What began as a single family-run location has grown into a regional franchise with a presence in Colombia, Mexico, Spain, and the United States, with more than 150 active locations between company-owned restaurants (38) and independent franchisees (112). The company employs approximately 2,400 people and generates over 85 million dollars in annual revenue.
+
+Its value proposition rests on three pillars: consistent product quality across every location, a standardized customer experience, and speed of service. Maintaining these three pillars across 150 locations in four countries without sufficient technology is the central problem the company is trying to solve. While smaller competitors are winning customers with their own apps, digital loyalty programs, and more efficient operations, Brasaland. still manages its ingredient orders over WhatsApp, its loyalty program with physical stamp cards, and its executive reporting through calls to country managers.
+
+CEO Mariana Restrepo — daughter of the founder — has created an internal team called **Brasa Digital** with the mandate to transform the operation. The company's main challenges are: gaining centralized, real-time visibility into what is happening at each location; digitalizing the relationship with its 112 franchisees (currently managed by email and phone calls); actually getting to know its end customers (about whom it has no data); and giving leadership a dashboard that enables real-time decision-making instead of relying on last week's PDF reports.
+
+One differentiating factor that sets Brasaland apart is the inherent tension between corporate headquarters and the independent franchisees. Franchisees are independent businesses: they are not required to adopt tools developed by Brasa Digital, and they have their own interests, which do not always align with those of the corporate office.
