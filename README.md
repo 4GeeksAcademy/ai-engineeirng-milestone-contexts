@@ -27,4 +27,4 @@ _Estas instrucciones están [disponibles en español](./README.es.md)_.
 
 ## Contributors
 
-This content is part of the [AI Engineering Coding Bootcamp](https://4geeksacademy.com/en/coding-bootcamps/ai-engineering) at 4Geeks Academy. This work was created by [@marcogonzalo](https://github.com/marcogonzalo) and [other contributors](https://github.com/4GeeksAcademy/first-dashboard-tailwind-css/graphs/contributors). Find out more information at [4GeeksAcademy.com](https://4geeksacademy.com).
+This content is part of the [AI Engineering Coding Bootcamp](https://4geeksacademy.com/en/career-programs/ai-engineering) at 4Geeks Academy. This work was created by [@marcogonzalo](https://github.com/marcogonzalo) and [other contributors](https://github.com/4GeeksAcademy/first-dashboard-tailwind-css/graphs/contributors). Find out more information at [4GeeksAcademy.com](https://4geeksacademy.com).
