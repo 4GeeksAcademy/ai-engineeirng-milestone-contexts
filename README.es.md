@@ -1,4 +1,5 @@
 # Contextos de hitos de ingeniería de IA
+
 El programa de estudios de Ingeniería de Inteligencia Artificial incluye algunos proyectos importantes que presentan un escenario para una empresa. Este repositorio contiene el contexto de cada empresa en ese escenario.
 
 <!-- ocultar -->
@@ -22,7 +23,6 @@ _These instructions are [available in English](./README.md)_.
 - Abre la carpeta correspondiente al hito que estás resolviendo.
 - Lee el archivo `CONTEXT-<compañía>.md` que corresponde a la empresa que se te ha asignado.
 - ¡Disfruta creando algo genial!
-
 
 ## Colaboradores
 
