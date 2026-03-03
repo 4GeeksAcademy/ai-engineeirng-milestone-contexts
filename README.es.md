@@ -19,7 +19,7 @@ _These instructions are [available in English](./README.md)_.
 
 ## 🌱 Cómo usar este repositorio
 
-- Cada carpeta representa un hito del proyecto principal del curso de Ingeniería de IA.
+- Cada carpeta representa un hito del proyecto principal del curso de Ingeniería de IA identificado por su numeración y referencia al escenario (ej.: 10-realtime)
 - Abre la carpeta correspondiente al hito que estás resolviendo.
 - Lee el archivo `CONTEXT-<compañía>.md` que corresponde a la empresa que se te ha asignado.
 - ¡Disfruta creando algo genial!

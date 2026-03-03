@@ -1,4 +1,5 @@
 # AI Engineering Milestone Contexts
+
 The Artificial Intelligence Engineering syllabus has some milestone projects that present a scenario for a company. This repo contains the context for each company in that scenario.
 
 <!-- hide -->
@@ -18,12 +19,10 @@ _Estas instrucciones están [disponibles en español](./README.es.md)_.
 
 ## 🌱 How to use this repo
 
-- Each folder represents a milestone of the main project in the AI Engineering course.
-- Open the folder that corresponds to the milestone you are solving open
+- Each folder represents a milestone of the main project in the AI Engineering course identified by its number and scenario (e.g.: 10-realtime)
+- Open the folder that corresponds to the milestone you are solving
 - Read the `CONTEXT-<company>.md` file that corresponds to the company you have been assigned to.
 - Enjoy building something great!
-
-
 
 ## Contributors
 
