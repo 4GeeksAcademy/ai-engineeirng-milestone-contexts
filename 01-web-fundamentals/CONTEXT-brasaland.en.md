@@ -35,23 +35,26 @@ You work in **Brasaland Digital**, the internal team created by CEO Mariana Rest
 Your landing page must include the following sections, in this order:
 
 ### Header
+
 - Logo or name "Brasaland"
 - Language selector (ES | EN)
 - Navigation: Home | Locations | Menu | Brasa Points | Contact
 
 ### Hero
+
 - **Headline:** "The taste of the grill, in every bite"
 - **Subheadline:** "Since 2008 serving the best grilled meats in Colombia and the United States. 14 locations, one passion for quality and flavor."
 - **Call to action:** Button "Join Brasa Points" linking to the form
 
 ### Our Story (paragraph + image)
+
 Founded in Medellín in 2008, Brasaland began as a family dream: sharing the authentic taste of grilled meat with consistent quality and warm service. Today we are 14 restaurants in two countries, but we maintain the same recipe for success: fresh products, traditional techniques, and passion for every dish we serve.
 
 ### What Makes Us Unique (3 columns)
+
 1. **Consistent Quality**
    - Same recipes and standards in all locations
    - Fresh ingredients selected daily
-   
 2. **Warm Experience**
    - Friendly and attentive service
    - Family atmosphere on every visit
@@ -61,6 +64,7 @@ Founded in Medellín in 2008, Brasaland began as a family dream: sharing the aut
    - Without sacrificing flavor or quality
 
 ### Our Locations (2 columns)
+
 - **Colombia**
   - 10 restaurants in Medellín, Bogotá and Cali
   - Hours: Mon-Sun 11:00 AM - 10:00 PM
@@ -70,18 +74,22 @@ Founded in Medellín in 2008, Brasaland began as a family dream: sharing the aut
   - Hours: Mon-Sun 11:00 AM - 10:00 PM
 
 ### Brasa Points (featured section)
+
 **Earn points with every visit**
+
 - Accumulate 1 point for every $10,000 COP or $5 USD
 - Redeem your points for discounts and free dishes
 - Exclusive offers for members
 - 100% digital registration - no more paper cards!
 
 ### Contact
-- Email: hello@brasaland.com
+
+- Email: <hello@brasaland.com>
 - Colombia: +57 4 123 4567
 - Florida: +1 305 123 4567
 
 ### Footer
+
 - © 2025 Brasaland. All rights reserved.
 - Instagram | Facebook
 
@@ -91,19 +99,19 @@ Founded in Medellín in 2008, Brasaland began as a family dream: sharing the aut
 
 Your form must capture the following information:
 
-| Field                                  | Type     | Validation                                                | Required |
-| -------------------------------------- | -------- | --------------------------------------------------------- | -------- |
-| **Full name**                          | text     | Minimum 2 words                                           | Yes      |
-| **Email**                              | email    | Valid email format                                        | Yes      |
-| **Phone**                              | tel      | Format: +[country code] [number]                          | Yes      |
-| **Country**                            | select   | Colombia / United States                                  | Yes      |
-| **City**                               | select   | Medellín / Bogotá / Cali / Miami / Orlando (per country) | Yes      |
-| **Favorite Brasaland location**        | select   | List of 14 restaurants per country and city               | No       |
-| **Dietary preferences**                | checkbox | No restrictions / Vegetarian / Gluten-free / Other        | No       |
-| **How did you find us?**               | select   | Social media / Recommendation / Walked by / Internet search / Other | Yes |
-| **Date of birth**                      | date     | Must be 18 or older                                       | Yes      |
-| **I accept program terms**             | checkbox | Must be checked to submit                                 | Yes      |
-| **I want to receive offers via email** | checkbox | Optional, unchecked by default                            | No       |
+| Field                                  | Type     | Validation                                                          | Required |
+| -------------------------------------- | -------- | ------------------------------------------------------------------- | -------- |
+| **Full name**                          | text     | Minimum 2 words                                                     | Yes      |
+| **Email**                              | email    | Valid email format                                                  | Yes      |
+| **Phone**                              | tel      | Format: +[country code] [number]                                    | Yes      |
+| **Country**                            | select   | Colombia / United States                                            | Yes      |
+| **City**                               | select   | Medellín / Bogotá / Cali / Miami / Orlando (per country)            | Yes      |
+| **Favorite Brasaland location**        | select   | List of 14 restaurants per country and city                         | No       |
+| **Dietary preferences**                | checkbox | No restrictions / Vegetarian / Gluten-free / Other                  | No       |
+| **How did you find us?**               | select   | Social media / Recommendation / Walked by / Internet search / Other | Yes      |
+| **Date of birth**                      | date     | Must be 18 or older                                                 | Yes      |
+| **I accept program terms**             | checkbox | Must be checked to submit                                           | Yes      |
+| **I want to receive offers via email** | checkbox | Optional, unchecked by default                                      | No       |
 
 ---
 
@@ -122,10 +130,12 @@ Your form must capture the following information:
 ## Dependent field logic
 
 **Country → City:**
+
 - If selecting "Colombia": show Medellín, Bogotá, Cali
 - If selecting "United States": show Miami, Orlando
 
 **Country + City → Favorite location:**
+
 - Colombia - Medellín: Brasaland El Poblado, Brasaland Laureles, Brasaland Envigado, Brasaland Sabaneta
 - Colombia - Bogotá: Brasaland Usaquén, Brasaland Chapinero, Brasaland Zona Rosa
 - Colombia - Cali: Brasaland Granada, Brasaland Ciudad Jardín, Brasaland Unicentro
@@ -139,7 +149,7 @@ Your form must capture the following information:
 When a field doesn't meet validation, display these specific messages:
 
 - **Full name:** "Enter your full name (first and last name)"
-- **Email:** "Enter a valid email (example: name@email.com)"
+- **Email:** "Enter a valid email (example: <name@email.com>)"
 - **Phone:** "Phone must include country code (example: +57 300 123 4567 or +1 305 123 4567)"
 - **Country:** "Select your country"
 - **City:** "Select your city"
@@ -154,9 +164,9 @@ When a field doesn't meet validation, display these specific messages:
 When the form validates correctly (simulate submission), display:
 
 > **Welcome to Brasa Points!**
-> 
+>
 > Your registration was successful. You will receive a confirmation email in the next few minutes with your account details and how to start earning points.
-> 
+>
 > You can now enjoy your benefits at any of our 14 locations!
 
 ---
@@ -207,9 +217,3 @@ Implement the following Schema.org markup on your landing page:
   ]
 }
 ```
-
----
-
-## Bilingualism requirement
-
-**IMPORTANT:** The entire site must be fully available in Spanish and English. Implement a language selector in the header. When changing language, ALL content must translate: texts, buttons, error messages, form placeholders, and success message. The selected language must persist while the user navigates the site.

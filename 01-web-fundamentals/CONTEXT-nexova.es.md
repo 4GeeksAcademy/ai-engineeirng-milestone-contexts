@@ -16,7 +16,7 @@ _These instructions are [available in English](./CONTEXT-nexova.md)._
 
 ## Tu departamento y el problema que debes resolver
 
-Trabajas en el equipo de **Marketing y Comunicaciones**, liderado por Carmen Ruiz. El sitio web corporativo de Nexova fue construido en 2019 y no ha tenido actualizaciones significativas. Es lento, no es accesible, y no refleja el posicionamiento actual de la empresa. Además, no existe un sistema para capturar leads: las personas interesadas en oportunidades laborales o servicios deben enviar un email genérico a info@nexova.com. Carmen necesita un sitio web moderno que presente profesionalmente los servicios de Nexova y capture información de candidatos potenciales de forma estructurada.
+Trabajas en el equipo de **Marketing y Comunicaciones**, liderado por Carmen Ruiz. El sitio web corporativo de Nexova fue construido en 2019 y no ha tenido actualizaciones significativas. Es lento, no es accesible, y no refleja el posicionamiento actual de la empresa. Además, no existe un sistema para capturar leads: las personas interesadas en oportunidades laborales o servicios deben enviar un email genérico a <info@nexova.com>. Carmen necesita un sitio web moderno que presente profesionalmente los servicios de Nexova y capture información de candidatos potenciales de forma estructurada.
 
 ---
 
@@ -35,19 +35,21 @@ Trabajas en el equipo de **Marketing y Comunicaciones**, liderado por Carmen Rui
 Tu landing page debe incluir las siguientes secciones, en este orden:
 
 ### Header
+
 - Logo o nombre "Nexova"
 - Navegación: Inicio | Servicios | Talento | Contacto
 
 ### Hero
+
 - **Titular:** "Construimos equipos excepcionales para empresas en crecimiento"
 - **Subtítulo:** "Consultora de recursos humanos y adquisición de talento con más de 10 años ayudando a empresas de tecnología, retail y servicios financieros a encontrar y desarrollar el mejor talento."
 - **Call to action:** Botón "Únete a nuestro banco de talento" que enlace al formulario
 
 ### Servicios (3 columnas)
+
 1. **Headhunting Ejecutivo**
    - Búsqueda y selección de perfiles ejecutivos y mandos medios
    - Proceso personalizado con garantía de reemplazo
-   
 2. **Outsourcing de Atención al Cliente**
    - Equipos especializados para empresas tecnológicas
    - Formación continua y supervisión dedicada
@@ -57,17 +59,20 @@ Tu landing page debe incluir las siguientes secciones, en este orden:
    - Cursos presenciales y en línea adaptados a cada organización
 
 ### Por qué Nexova (2 columnas)
+
 - **12 años de experiencia** en el mercado latinoamericano
 - **Presencia regional:** Chile y Argentina
 - **+500 procesos exitosos** de selección completados
 - **Especialización sectorial** en tecnología, retail y finanzas
 
 ### Contacto
-- Email: contacto@nexova.com
+
+- Email: <contacto@nexova.com>
 - Santiago: +56 2 2345 6789
 - Buenos Aires: +54 11 4567 8901
 
 ### Footer
+
 - © 2025 Nexova. Todos los derechos reservados.
 - LinkedIn | Instagram
 
@@ -77,25 +82,25 @@ Tu landing page debe incluir las siguientes secciones, en este orden:
 
 Tu formulario debe capturar la siguiente información:
 
-| Campo                          | Tipo       | Validación                                                        | Obligatorio |
-| ------------------------------ | ---------- | ----------------------------------------------------------------- | ----------- |
-| **Nombre completo**            | text       | Mínimo 2 palabras                                                 | Sí          |
-| **Email**                      | email      | Formato válido de email                                           | Sí          |
-| **Teléfono**                   | tel        | Formato: +[código país] [número] (ej: +56 9 1234 5678)           | Sí          |
-| **País de residencia**         | select     | Chile / Argentina / Otro                                          | Sí          |
-| **Años de experiencia**        | number     | Entre 0 y 50                                                      | Sí          |
-| **Sector de interés**          | select     | Tecnología / Retail / Servicios Financieros / Consultoría / Otro | Sí          |
-| **Nivel de inglés**            | select     | Básico / Intermedio / Avanzado / Nativo                           | Sí          |
-| **Disponibilidad**             | radio      | Inmediata / 1 mes / 2-3 meses / Solo explorando                   | Sí          |
-| **LinkedIn (URL del perfil)**  | url        | Formato URL válido                                                | No          |
-| **Comentarios adicionales**    | textarea   | Máximo 500 caracteres                                             | No          |
-| **Acepto política de datos**   | checkbox   | Debe estar marcado para enviar                                    | Sí          |
+| Campo                         | Tipo     | Validación                                                       | Obligatorio |
+| ----------------------------- | -------- | ---------------------------------------------------------------- | ----------- |
+| **Nombre completo**           | text     | Mínimo 2 palabras                                                | Sí          |
+| **Email**                     | email    | Formato válido de email                                          | Sí          |
+| **Teléfono**                  | tel      | Formato: +[código país] [número] (ej: +56 9 1234 5678)           | Sí          |
+| **País de residencia**        | select   | Chile / Argentina / Otro                                         | Sí          |
+| **Años de experiencia**       | number   | Entre 0 y 50                                                     | Sí          |
+| **Sector de interés**         | select   | Tecnología / Retail / Servicios Financieros / Consultoría / Otro | Sí          |
+| **Nivel de inglés**           | select   | Básico / Intermedio / Avanzado / Nativo                          | Sí          |
+| **Disponibilidad**            | radio    | Inmediata / 1 mes / 2-3 meses / Solo explorando                  | Sí          |
+| **LinkedIn (URL del perfil)** | url      | Formato URL válido                                               | No          |
+| **Comentarios adicionales**   | textarea | Máximo 500 caracteres                                            | No          |
+| **Acepto política de datos**  | checkbox | Debe estar marcado para enviar                                   | Sí          |
 
 ---
 
 ## Validaciones específicas
 
-1. **Email:** Debe validar que contenga @ y un dominio válido (ej: usuario@dominio.com)
+1. **Email:** Debe validar que contenga @ y un dominio válido (ej: <usuario@dominio.com>)
 2. **Teléfono:** Debe comenzar con + seguido del código de país
 3. **Años de experiencia:** No puede ser negativo ni mayor a 50
 4. **LinkedIn:** Si se proporciona, debe ser una URL válida (comenzar con http:// o https://)
@@ -109,7 +114,7 @@ Tu formulario debe capturar la siguiente información:
 Cuando un campo no cumpla la validación, muestra estos mensajes específicos:
 
 - **Nombre completo:** "El nombre debe contener al menos nombre y apellido"
-- **Email:** "Ingresa un email válido (ejemplo: nombre@empresa.com)"
+- **Email:** "Ingresa un email válido (ejemplo: <nombre@empresa.com>)"
 - **Teléfono:** "El teléfono debe incluir código de país (ejemplo: +56 9 1234 5678)"
 - **País:** "Selecciona tu país de residencia"
 - **Años de experiencia:** "Los años de experiencia deben estar entre 0 y 50"
@@ -127,16 +132,16 @@ Cuando un campo no cumpla la validación, muestra estos mensajes específicos:
 Cuando el formulario se valide correctamente (simular envío), mostrar:
 
 > **¡Gracias por tu interés en Nexova!**
-> 
+>
 > Hemos recibido tu información. Nuestro equipo de selección la revisará y te contactaremos en caso de que tu perfil encaje con alguna de nuestras oportunidades actuales o futuras.
-> 
+>
 > Mientras tanto, síguenos en LinkedIn para estar al día de nuestras vacantes y contenido sobre desarrollo profesional.
 
 ---
 
 ## Restricción específica
 
-El formulario está diseñado para **profesionales en búsqueda activa o pasiva de oportunidades laborales**, no para empresas que buscan contratar servicios de Nexova. Si un usuario pregunta sobre contratar servicios de headhunting o formación, el formulario debe incluir un mensaje visible que diga: "¿Eres una empresa buscando talento? Escríbenos a contacto@nexova.com"
+El formulario está diseñado para **profesionales en búsqueda activa o pasiva de oportunidades laborales**, no para empresas que buscan contratar servicios de Nexova. Si un usuario pregunta sobre contratar servicios de headhunting o formación, el formulario debe incluir un mensaje visible que diga: "¿Eres una empresa buscando talento? Escríbenos a <contacto@nexova.com>"
 
 ---
 

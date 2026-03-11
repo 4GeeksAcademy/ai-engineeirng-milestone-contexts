@@ -35,15 +35,18 @@ You work in the **TrackFlow Tech** unit, reporting directly to CTO Andrés Kim. 
 Your landing page must include the following sections, in this order:
 
 ### Header
+
 - Logo or name "TrackFlow"
 - Navigation: Home | Services | Coverage | Contact
 
 ### Hero
+
 - **Headline:** "Logistics that scales with your e-commerce"
 - **Subheadline:** "Warehouse management, last-mile deliveries, and reverse logistics in Mexico and Spain. Over 15 years helping fashion, electronics, and cosmetics brands grow without worrying about operations."
 - **Call to action:** Button "Request information" linking to the form
 
 ### Services (3 columns)
+
 1. **Warehouse Management**
    - Storage, picking and packing
    - Real-time inventory
@@ -60,6 +63,7 @@ Your landing page must include the following sections, in this order:
    - Integration with your sales platform
 
 ### Coverage (2 columns)
+
 - **Mexico**
   - Warehouse in Monterrey
   - National coverage
@@ -71,17 +75,20 @@ Your landing page must include the following sections, in this order:
   - Carriers: MRW, SEUR, DHL
 
 ### Why TrackFlow (4 benefits)
+
 - **Binational operation:** The only operator with own infrastructure in Mexico and Spain
 - **+130 professionals** dedicated to your logistics
 - **Own technology** for total visibility of your inventory
 - **E-commerce specialization** in fashion, electronics, and cosmetics
 
 ### Contact
-- Email: comercial@trackflow.com
+
+- Email: <comercial@trackflow.com>
 - Monterrey: +52 81 1234 5678
 - Zaragoza: +34 976 123 456
 
 ### Footer
+
 - © 2025 TrackFlow. All rights reserved.
 - LinkedIn
 
@@ -91,20 +98,20 @@ Your landing page must include the following sections, in this order:
 
 Your form must capture the following information:
 
-| Field                                     | Type     | Validation                                                | Required |
-| ----------------------------------------- | -------- | --------------------------------------------------------- | -------- |
-| **Company name**                          | text     | Minimum 2 characters                                      | Yes      |
-| **Contact person**                        | text     | Minimum 2 words (first and last name)                     | Yes      |
-| **Corporate email**                       | email    | Valid email format                                        | Yes      |
-| **Phone**                                 | tel      | Format: +[country code] [number]                          | Yes      |
-| **Company website**                       | url      | Valid URL format                                          | No       |
-| **Main operating country**                | select   | Mexico / Spain / Both / Other                             | Yes      |
-| **Product type**                          | select   | Fashion / Electronics / Cosmetics / Food / Other          | Yes      |
-| **Estimated monthly shipping volume**     | select   | 0-100 / 101-500 / 501-2000 / 2000+ / Not sure            | Yes      |
-| **Services of interest**                  | checkbox | Warehousing / Last mile / Reverse logistics (multiple)    | Yes      |
-| **Do you currently work with another 3PL?** | radio    | Yes / No / Evaluating options                             | Yes      |
-| **Comments or specific needs**            | textarea | Maximum 500 characters                                    | No       |
-| **I accept the privacy policy**           | checkbox | Must be checked to submit                                 | Yes      |
+| Field                                       | Type     | Validation                                             | Required |
+| ------------------------------------------- | -------- | ------------------------------------------------------ | -------- |
+| **Company name**                            | text     | Minimum 2 characters                                   | Yes      |
+| **Contact person**                          | text     | Minimum 2 words (first and last name)                  | Yes      |
+| **Corporate email**                         | email    | Valid email format                                     | Yes      |
+| **Phone**                                   | tel      | Format: +[country code] [number]                       | Yes      |
+| **Company website**                         | url      | Valid URL format                                       | No       |
+| **Main operating country**                  | select   | Mexico / Spain / Both / Other                          | Yes      |
+| **Product type**                            | select   | Fashion / Electronics / Cosmetics / Food / Other       | Yes      |
+| **Estimated monthly shipping volume**       | select   | 0-100 / 101-500 / 501-2000 / 2000+ / Not sure          | Yes      |
+| **Services of interest**                    | checkbox | Warehousing / Last mile / Reverse logistics (multiple) | Yes      |
+| **Do you currently work with another 3PL?** | radio    | Yes / No / Evaluating options                          | Yes      |
+| **Comments or specific needs**              | textarea | Maximum 500 characters                                 | No       |
+| **I accept the privacy policy**             | checkbox | Must be checked to submit                              | Yes      |
 
 ---
 
@@ -127,7 +134,7 @@ When a field doesn't meet validation, display these specific messages:
 
 - **Company name:** "Company name must have at least 2 characters"
 - **Contact person:** "Enter first and last name of contact"
-- **Email:** "Enter a valid corporate email (example: name@company.com)"
+- **Email:** "Enter a valid corporate email (example: <name@company.com>)"
 - **Phone:** "Phone must include country code (example: +52 81 1234 5678)"
 - **Website:** "If you include website, it must be a valid URL"
 - **Country:** "Select main operating country"
@@ -145,10 +152,10 @@ When a field doesn't meet validation, display these specific messages:
 When the form validates correctly (simulate submission), display:
 
 > **Thank you for your interest in TrackFlow!**
-> 
+>
 > We have received your request. Our commercial team will review your information and contact you within the next 24-48 hours to schedule a call and learn about your logistics needs in detail.
-> 
-> If you have any urgent inquiry, write to us directly at comercial@trackflow.com
+>
+> If you have any urgent inquiry, write to us directly at <comercial@trackflow.com>
 
 ---
 
@@ -162,7 +169,7 @@ The form is designed for **e-commerce companies looking to outsource their logis
 
 Implement the following Schema.org markup on your landing page:
 
-\`\`\`json
+```json
 {
   "@context": "https://schema.org",
   "@type": "Organization",
@@ -190,9 +197,7 @@ Implement the following Schema.org markup on your landing page:
     "contactType": "sales",
     "availableLanguage": ["Spanish", "English"]
   },
-  "sameAs": [
-    "https://linkedin.com/company/trackflow"
-  ],
+  "sameAs": ["https://linkedin.com/company/trackflow"],
   "areaServed": [
     {
       "@type": "Country",
@@ -204,4 +209,4 @@ Implement the following Schema.org markup on your landing page:
     }
   ]
 }
-\`\`\`
+```

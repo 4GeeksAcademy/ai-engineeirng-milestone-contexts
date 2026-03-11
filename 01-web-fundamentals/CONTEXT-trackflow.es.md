@@ -35,15 +35,18 @@ Trabajas en la unidad **TrackFlow Tech**, reportando directamente al CTO Andrés
 Tu landing page debe incluir las siguientes secciones, en este orden:
 
 ### Header
+
 - Logo o nombre "TrackFlow"
 - Navegación: Inicio | Servicios | Cobertura | Contacto
 
 ### Hero
+
 - **Titular:** "Logística que escala con tu e-commerce"
 - **Subtítulo:** "Gestión de almacenes, entregas de última milla y logística inversa en México y España. Más de 15 años ayudando a marcas de moda, electrónica y cosmética a crecer sin preocuparse por la operación."
 - **Call to action:** Botón "Solicitar información" que enlace al formulario
 
 ### Servicios (3 columnas)
+
 1. **Gestión de Almacenes**
    - Almacenamiento, picking y packing
    - Inventario en tiempo real
@@ -60,6 +63,7 @@ Tu landing page debe incluir las siguientes secciones, en este orden:
    - Integración con tu plataforma de ventas
 
 ### Cobertura (2 columnas)
+
 - **México**
   - Almacén en Monterrey
   - Cobertura nacional
@@ -71,17 +75,20 @@ Tu landing page debe incluir las siguientes secciones, en este orden:
   - Carriers: MRW, SEUR, DHL
 
 ### Por qué TrackFlow (4 beneficios)
+
 - **Operación binacional:** El único operador con infraestructura propia en México y España
 - **+130 profesionales** dedicados a tu logística
 - **Tecnología propia** para visibilidad total de tu inventario
 - **Especialización e-commerce** en moda, electrónica y cosmética
 
 ### Contacto
-- Email: comercial@trackflow.com
+
+- Email: <comercial@trackflow.com>
 - Monterrey: +52 81 1234 5678
 - Zaragoza: +34 976 123 456
 
 ### Footer
+
 - © 2025 TrackFlow. Todos los derechos reservados.
 - LinkedIn
 
@@ -91,20 +98,20 @@ Tu landing page debe incluir las siguientes secciones, en este orden:
 
 Tu formulario debe capturar la siguiente información:
 
-| Campo                                  | Tipo     | Validación                                                | Obligatorio |
-| -------------------------------------- | -------- | --------------------------------------------------------- | ----------- |
-| **Nombre de la empresa**               | text     | Mínimo 2 caracteres                                       | Sí          |
-| **Persona de contacto**                | text     | Mínimo 2 palabras (nombre y apellido)                     | Sí          |
-| **Email corporativo**                  | email    | Formato válido de email                                   | Sí          |
-| **Teléfono**                           | tel      | Formato: +[código país] [número]                          | Sí          |
-| **Sitio web de la empresa**            | url      | Formato URL válido                                        | No          |
-| **País de operación principal**        | select   | México / España / Ambos / Otro                            | Sí          |
-| **Tipo de producto**                   | select   | Moda / Electrónica / Cosmética / Alimentación / Otro      | Sí          |
-| **Volumen mensual estimado de envíos** | select   | 0-100 / 101-500 / 501-2000 / 2000+ / No estoy seguro     | Sí          |
-| **Servicios de interés**               | checkbox | Almacenaje / Última milla / Logística inversa (múltiple)  | Sí          |
-| **¿Actualmente trabajas con otro 3PL?** | radio    | Sí / No / Estoy evaluando opciones                        | Sí          |
-| **Comentarios o necesidades específicas** | textarea | Máximo 500 caracteres                                     | No          |
-| **Acepto política de privacidad**      | checkbox | Debe estar marcado para enviar                            | Sí          |
+| Campo                                     | Tipo     | Validación                                               | Obligatorio |
+| ----------------------------------------- | -------- | -------------------------------------------------------- | ----------- |
+| **Nombre de la empresa**                  | text     | Mínimo 2 caracteres                                      | Sí          |
+| **Persona de contacto**                   | text     | Mínimo 2 palabras (nombre y apellido)                    | Sí          |
+| **Email corporativo**                     | email    | Formato válido de email                                  | Sí          |
+| **Teléfono**                              | tel      | Formato: +[código país] [número]                         | Sí          |
+| **Sitio web de la empresa**               | url      | Formato URL válido                                       | No          |
+| **País de operación principal**           | select   | México / España / Ambos / Otro                           | Sí          |
+| **Tipo de producto**                      | select   | Moda / Electrónica / Cosmética / Alimentación / Otro     | Sí          |
+| **Volumen mensual estimado de envíos**    | select   | 0-100 / 101-500 / 501-2000 / 2000+ / No estoy seguro     | Sí          |
+| **Servicios de interés**                  | checkbox | Almacenaje / Última milla / Logística inversa (múltiple) | Sí          |
+| **¿Actualmente trabajas con otro 3PL?**   | radio    | Sí / No / Estoy evaluando opciones                       | Sí          |
+| **Comentarios o necesidades específicas** | textarea | Máximo 500 caracteres                                    | No          |
+| **Acepto política de privacidad**         | checkbox | Debe estar marcado para enviar                           | Sí          |
 
 ---
 
@@ -127,7 +134,7 @@ Cuando un campo no cumpla la validación, muestra estos mensajes específicos:
 
 - **Nombre de empresa:** "El nombre de la empresa debe tener al menos 2 caracteres"
 - **Persona de contacto:** "Ingresa nombre y apellido del contacto"
-- **Email:** "Ingresa un email corporativo válido (ejemplo: nombre@empresa.com)"
+- **Email:** "Ingresa un email corporativo válido (ejemplo: <nombre@empresa.com>)"
 - **Teléfono:** "El teléfono debe incluir código de país (ejemplo: +52 81 1234 5678)"
 - **Sitio web:** "Si incluyes sitio web, debe ser una URL válida"
 - **País:** "Selecciona el país de operación principal"
@@ -145,10 +152,10 @@ Cuando un campo no cumpla la validación, muestra estos mensajes específicos:
 Cuando el formulario se valide correctamente (simular envío), mostrar:
 
 > **¡Gracias por tu interés en TrackFlow!**
-> 
+>
 > Hemos recibido tu solicitud. Nuestro equipo comercial revisará tu información y te contactará en las próximas 24-48 horas para agendar una llamada y conocer tus necesidades logísticas en detalle.
-> 
-> Si tienes alguna consulta urgente, escríbenos directamente a comercial@trackflow.com
+>
+> Si tienes alguna consulta urgente, escríbenos directamente a <comercial@trackflow.com>
 
 ---
 
@@ -190,9 +197,7 @@ Implementa el siguiente marcado Schema.org en tu landing page:
     "contactType": "sales",
     "availableLanguage": ["Spanish", "English"]
   },
-  "sameAs": [
-    "https://linkedin.com/company/trackflow"
-  ],
+  "sameAs": ["https://linkedin.com/company/trackflow"],
   "areaServed": [
     {
       "@type": "Country",

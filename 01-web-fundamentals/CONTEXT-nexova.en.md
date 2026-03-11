@@ -16,7 +16,7 @@ _Estas instrucciones están [disponibles en español](./CONTEXT-nexova.es.md)._
 
 ## Your department and the problem you must solve
 
-You work in the **Marketing and Communications** team, led by Carmen Ruiz. Nexova's corporate website was built in 2019 and hasn't had meaningful updates. It's slow, not accessible, and doesn't reflect the company's current positioning. Additionally, there's no system to capture leads: people interested in job opportunities or services must send a generic email to info@nexova.com. Carmen needs a modern website that professionally presents Nexova's services and captures information from potential candidates in a structured way.
+You work in the **Marketing and Communications** team, led by Carmen Ruiz. Nexova's corporate website was built in 2019 and hasn't had meaningful updates. It's slow, not accessible, and doesn't reflect the company's current positioning. Additionally, there's no system to capture leads: people interested in job opportunities or services must send a generic email to <info@nexova.com>. Carmen needs a modern website that professionally presents Nexova's services and captures information from potential candidates in a structured way.
 
 ---
 
@@ -35,19 +35,22 @@ You work in the **Marketing and Communications** team, led by Carmen Ruiz. Nexov
 Your landing page must include the following sections, in this order:
 
 ### Header
+
 - Logo or name "Nexova"
 - Navigation: Home | Services | Talent | Contact
 
 ### Hero
+
 - **Headline:** "We build exceptional teams for growing companies"
 - **Subheadline:** "Human resources consulting and talent acquisition firm with over 10 years helping technology, retail, and financial services companies find and develop the best talent."
 - **Call to action:** Button "Join our talent pool" linking to the form
 
 ### Services (3 columns)
+
 1. **Executive Headhunting**
    - Search and selection of executive and mid-management profiles
    - Personalized process with replacement guarantee
-   
+
 2. **Customer Support Outsourcing**
    - Specialized teams for technology companies
    - Continuous training and dedicated supervision
@@ -57,17 +60,20 @@ Your landing page must include the following sections, in this order:
    - In-person and online courses adapted to each organization
 
 ### Why Nexova (2 columns)
+
 - **12 years of experience** in the Latin American market
 - **Regional presence:** Chile and Argentina
 - **+500 successful selection processes** completed
 - **Sector specialization** in technology, retail, and finance
 
 ### Contact
-- Email: contacto@nexova.com
+
+- Email: <contacto@nexova.com>
 - Santiago: +56 2 2345 6789
 - Buenos Aires: +54 11 4567 8901
 
 ### Footer
+
 - © 2025 Nexova. All rights reserved.
 - LinkedIn | Instagram
 
@@ -77,25 +83,25 @@ Your landing page must include the following sections, in this order:
 
 Your form must capture the following information:
 
-| Field                             | Type     | Validation                                                | Required |
-| --------------------------------- | -------- | --------------------------------------------------------- | -------- |
-| **Full name**                     | text     | Minimum 2 words                                           | Yes      |
-| **Email**                         | email    | Valid email format                                        | Yes      |
-| **Phone**                         | tel      | Format: +[country code] [number] (e.g., +56 9 1234 5678) | Yes      |
-| **Country of residence**          | select   | Chile / Argentina / Other                                 | Yes      |
-| **Years of experience**           | number   | Between 0 and 50                                          | Yes      |
-| **Sector of interest**            | select   | Technology / Retail / Financial Services / Consulting / Other | Yes      |
-| **English level**                 | select   | Basic / Intermediate / Advanced / Native                  | Yes      |
-| **Availability**                  | radio    | Immediate / 1 month / 2-3 months / Just exploring         | Yes      |
-| **LinkedIn (profile URL)**        | url      | Valid URL format                                          | No       |
-| **Additional comments**           | textarea | Maximum 500 characters                                    | No       |
-| **I accept the data policy**      | checkbox | Must be checked to submit                                 | Yes      |
+| Field                        | Type     | Validation                                                    | Required |
+| ---------------------------- | -------- | ------------------------------------------------------------- | -------- |
+| **Full name**                | text     | Minimum 2 words                                               | Yes      |
+| **Email**                    | email    | Valid email format                                            | Yes      |
+| **Phone**                    | tel      | Format: +[country code] [number] (e.g., +56 9 1234 5678)      | Yes      |
+| **Country of residence**     | select   | Chile / Argentina / Other                                     | Yes      |
+| **Years of experience**      | number   | Between 0 and 50                                              | Yes      |
+| **Sector of interest**       | select   | Technology / Retail / Financial Services / Consulting / Other | Yes      |
+| **English level**            | select   | Basic / Intermediate / Advanced / Native                      | Yes      |
+| **Availability**             | radio    | Immediate / 1 month / 2-3 months / Just exploring             | Yes      |
+| **LinkedIn (profile URL)**   | url      | Valid URL format                                              | No       |
+| **Additional comments**      | textarea | Maximum 500 characters                                        | No       |
+| **I accept the data policy** | checkbox | Must be checked to submit                                     | Yes      |
 
 ---
 
 ## Specific validations
 
-1. **Email:** Must validate that it contains @ and a valid domain (e.g., user@domain.com)
+1. **Email:** Must validate that it contains @ and a valid domain (e.g., <user@domain.com>)
 2. **Phone:** Must start with + followed by country code
 3. **Years of experience:** Cannot be negative or greater than 50
 4. **LinkedIn:** If provided, must be a valid URL (start with http:// or https://)
@@ -109,7 +115,7 @@ Your form must capture the following information:
 When a field doesn't meet validation, display these specific messages:
 
 - **Full name:** "Name must contain at least first and last name"
-- **Email:** "Enter a valid email (example: name@company.com)"
+- **Email:** "Enter a valid email (example: <name@company.com>)"
 - **Phone:** "Phone must include country code (example: +56 9 1234 5678)"
 - **Country:** "Select your country of residence"
 - **Years of experience:** "Years of experience must be between 0 and 50"
@@ -127,16 +133,16 @@ When a field doesn't meet validation, display these specific messages:
 When the form validates correctly (simulate submission), display:
 
 > **Thank you for your interest in Nexova!**
-> 
+>
 > We have received your information. Our selection team will review it and contact you if your profile matches any of our current or future opportunities.
-> 
+>
 > In the meantime, follow us on LinkedIn to stay updated on our vacancies and professional development content.
 
 ---
 
 ## Specific restriction
 
-The form is designed for **professionals in active or passive job search**, not for companies looking to hire Nexova's services. If a user asks about hiring headhunting or training services, the form must include a visible message that says: "Are you a company looking for talent? Write to us at contacto@nexova.com"
+The form is designed for **professionals in active or passive job search**, not for companies looking to hire Nexova's services. If a user asks about hiring headhunting or training services, the form must include a visible message that says: "Are you a company looking for talent? Write to us at <contacto@nexova.com>"
 
 ---
 
@@ -144,13 +150,13 @@ The form is designed for **professionals in active or passive job search**, not 
 
 Implement the following Schema.org markup on your landing page:
 
-\`\`\`json
+```json
 {
-  "@context": "https://schema.org",
+  "@context": "<https://schema.org>",
   "@type": "Organization",
   "name": "Nexova",
   "description": "Human resources consulting and talent acquisition",
-  "url": "https://nexova.com",
+  "url": "<https://nexova.com>",
   "foundingDate": "2011",
   "address": [
     {
@@ -176,4 +182,4 @@ Implement the following Schema.org markup on your landing page:
     "https://instagram.com/nexova"
   ]
 }
-\`\`\`
+```
